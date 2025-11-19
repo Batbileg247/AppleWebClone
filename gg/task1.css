@@ -1,0 +1,87 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.w {
+  display: flex;
+  border: 1px solid black;
+}
+.container {
+  flex-direction: row;
+}
+.a div {
+  width: 100px;
+  height: 100px;
+}
+.box1 {
+  background-color: red;
+}
+.box2 {
+  background-color: green;
+}
+.box3 {
+  background-color: blue;
+}
+.box4 {
+  background-color: yellow;
+}
+
+.rawreverse {
+  flex-direction: row-reverse;
+}
+
+.colum {
+  flex-direction: column;
+}
+
+.columrev {
+  flex-direction: column-reverse;
+}
+
+.flexwrap {
+  flex-wrap: wrap;
+}
+
+.center {
+  justify-content: center;
+}
+
+.start {
+  justify-content: start;
+}
+
+.class {
+  justify-content: end;
+}
+
+.saround {
+  justify-content: space-around;
+}
+
+.abetween {
+  justify-content: space-between;
+}
+
+.center2 {
+  height: 200px;
+  align-items: center;
+}
+
+.flexstart {
+  height: 200px;
+  align-items: flex-start;
+}
+
+.flexend {
+  height: 200px;
+  align-items: flex-end;
+}
+
+.stretchd {
+  height: 200px;
+  align-items: stretch;
+}
+
+.base1 {
+}

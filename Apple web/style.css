@@ -1,0 +1,1034 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.htop {
+  display: flex;
+  background-color: #f5f5f7cc;
+  align-items: center;
+  text-align: center;
+  height: 48px;
+  width: 100%;
+  position: fixed;
+  justify-content: center;
+}
+
+.pc {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.gutal {
+  list-style-type: none;
+  gap: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 60px;
+  letter-spacing: -0.28px;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-s {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+}
+
+.applez {
+  font-size: 19px;
+  padding: 20px;
+}
+
+.htext {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: middle;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 7px;
+  padding-top: 58px;
+}
+
+.section {
+  display: grid;
+  gap: 12px;
+}
+
+.ip16pro {
+  background-image: url(./imgs/Utas/ip16pro.jpg);
+}
+
+.ip16 {
+  background-image: url(./imgs/Utas/ip16.jpg);
+}
+
+.ipads {
+  background-image: url(./imgs/Utas/ipad.jpg);
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+
+.sizes {
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+}
+
+.sized {
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+}
+
+.fontw h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-style: Bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.fontw p {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: 0px;
+  color: white;
+  text-align: center;
+}
+
+.fontb h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-style: Bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+.fontb h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 13px;
+  line-height: 100%;
+  letter-spacing: 2px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.fontb p {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.fontbs h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-style: Bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+.fontbs p {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.fontws h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-style: Bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.fontws p {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: 0px;
+  color: white;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 350px;
+}
+
+.boxde {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  gap: 16px;
+}
+
+.boxdo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  text-align: center;
+  align-items: center;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  gap: 16px;
+}
+
+.boxdod {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  text-align: center;
+  align-items: center;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  gap: 16px;
+}
+
+.towch {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.towchb {
+  width: 107px;
+  height: 36px;
+  border-radius: 999px;
+  background: #0071e3;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.towchget {
+  width: 150px;
+  height: 36px;
+  border-radius: 999px;
+  background: #0071e3;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.towchfind {
+  width: 126px;
+  height: 36px;
+  border-radius: 999px;
+  background: #0071e3;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.towchbh {
+  width: 66px;
+  height: 36px;
+  border-radius: 999px;
+  border: 1px solid #2997ff;
+  color: #2997ff;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.towchw {
+  width: 107px;
+  height: 36px;
+  border-radius: 999px;
+  background: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.towchwh {
+  width: 66px;
+  height: 36px;
+  border-radius: 999px;
+  border: 1px solid #fff;
+  color: #fefefe;
+  font-family: "Inter", sans-serqf;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.towchu {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.towchbu {
+  width: 107px;
+  height: 36px;
+  border-radius: 999px;
+  background: #0071e3;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.towchbhu {
+  width: 66px;
+  height: 36px;
+  border-radius: 999px;
+  border: 1px solid #2997ff;
+  color: #2997ff;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.towchwu {
+  width: 107px;
+  height: 36px;
+  border-radius: 999px;
+  background: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.towchwhu {
+  width: 66px;
+  height: 36px;
+  border-radius: 999px;
+  border: 1px solid #fff;
+  color: #fefefe;
+  font-family: "Inter", sans-serqf;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.towchbhw {
+  width: 107px;
+  height: 36px;
+  border-radius: 999px;
+  border: 1px solid #2997ff;
+  color: #2997ff;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.rainbow > p {
+  background: linear-gradient(
+    90.44deg,
+    #0090f7 0%,
+    #ba62fc 33.33%,
+    #f2416b 66.67%,
+    #f55600 100%
+  );
+  color: transparent;
+  background-clip: text;
+}
+
+.font {
+  font-size: 14px;
+  margin-bottom: 36px;
+}
+
+.gift {
+  display: none;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+/* contents */
+.airpods {
+  background-image: url(./imgs/Pad/iphairpods.jpg);
+  margin-top: 12px;
+}
+
+.ipad {
+  background-image: url(./imgs/Utas/ipad.jpg);
+  flex-direction: column;
+  justify-content: space-between;
+  display: none;
+}
+
+.airpods2 {
+  background-image: url(./imgs/Pc/air.pods2.jpg);
+  display: none;
+}
+
+.iwatch {
+  background-image: url(./imgs/Pad/iphwatch.jpg);
+}
+
+.tom {
+  padding: 0%;
+  color: #000000cc;
+}
+
+.macbook {
+  background-image: url(./imgs/Utas/macbook.jpg);
+}
+
+.smallb {
+  background-image: url(./imgs/Utas/smallb.png);
+}
+
+.carrier {
+  background-image: url(./imgs/Utas/carrier.jpg);
+}
+
+.trade {
+  background-image: url(./imgs/Utas/tradein.jpg);
+}
+
+.card {
+  background-image: url(./imgs/Pc/i.card.jpg);
+  display: none;
+}
+
+.contents {
+  display: grid;
+  grid-template-areas:
+    "ipad"
+    "airpods"
+    "iwatch"
+    "macbook"
+    "smallb"
+    "carrier"
+    "trade";
+  gap: 12px;
+}
+
+/* DOOD */
+
+.dood {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.frame {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  width: 2700px;
+}
+
+.framemini {
+  display: flex;
+  gap: 16px;
+  overflow: scroll;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
+.imgsze {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 495px;
+  width: 274px;
+  background-position: center;
+  display: flex;
+  scroll-snap-align: center;
+}
+
+.imgsze1 {
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 495px;
+  background-position: center;
+  display: flex;
+  filter: contrast(30%);
+}
+
+.tvdo {
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  padding-bottom: 58px;
+  padding-left: 70px;
+  gap: 16px;
+}
+
+.tedd {
+  background-image: url(./imgs/listsimgs/tedlasso.jpg);
+}
+.blitz {
+  background-image: url(./imgs/listsimgs/blitz.jpg);
+}
+.silo {
+  background-image: url(./imgs/listsimgs/silo.jpg);
+}
+.bads {
+  background-image: url(./imgs/listsimgs/badsista.jpg);
+}
+.shrek {
+  background-image: url(./imgs/listsimgs/shrink.jpg);
+}
+.season {
+  background-image: url(./imgs/listsimgs/seasonpass.jpg);
+}
+.charlie {
+  background-image: url(./imgs/listsimgs/charlie.jpg);
+}
+.disclaim {
+  background-image: url(./imgs/listsimgs/disclaim.jpg);
+}
+.slow {
+  background-image: url(./imgs/lists.pad/slow.pad.jpg);
+  display: none;
+}
+.flyme {
+  background-image: url(./imgs/lists.pad/roses.pad.jpg);
+  display: none;
+}
+.ehniih {
+  background-image: url(./imgs/listsimgs/disclaim.jpg);
+  background-position: right;
+}
+.suuliih {
+  background-image: url(./imgs/listsimgs/tedlasso.jpg);
+  background-position: left;
+}
+
+.frame {
+  width: 10000px;
+}
+
+.tvch {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.tvchb {
+  width: 108px;
+  height: 36px;
+  border-radius: 999px;
+  background: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.tvtxt {
+  display: flex;
+  gap: 5px;
+}
+
+.buduun {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 17px;
+  color: white;
+}
+
+.tvtxt {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+  color: white;
+}
+
+.tablist {
+  width: 100%;
+  height: 32px;
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  align-items: center;
+}
+
+.tablist-hover:hover {
+  background-color: black;
+  transform: scale(1.2);
+}
+
+.utas {
+  display: none;
+}
+
+a {
+  width: 8px;
+  height: 8px;
+  background-color: rgba(0, 0, 0, 0.421);
+  border-radius: 100%;
+}
+
+.footer {
+  display: flex;
+  gap: 6px;
+  width: 100000px;
+  height: 140px;
+  padding-top: 20px;
+}
+
+.footer:hover .sizes {
+  opacity: 0.3;
+}
+
+.footer .sizies:hover {
+  opacity: 1;
+}
+
+@keyframes scroll-animation {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.suue {
+  animation: scroll-animation 20s linear infinite;
+}
+
+.suue:hover {
+  animation-play-state: paused;
+}
+.footer-scroll-hide {
+  overflow: hidden;
+}
+
+.sizies {
+  width: 238px;
+  height: 134px;
+  background-size: cover;
+  background-position: center;
+}
+
+.sizies:hover {
+  filter: brightness(0.5);
+  transition: all 2s ease;
+  cursor: pointer;
+  animation-play-state: paused;
+  
+}
+
+.button {
+  height: 56px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: end;
+  margin: 16px;
+}
+
+.button-1 {
+  height: 24px;
+  width: 24px;
+  background-color: #d2d2d7;
+  border-radius: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.fa-solid {
+  font-size: 12px;
+}
+
+.yoga {
+  background-image: url(./imgs/list.doodtal/yoga.jpg);
+}
+.rb {
+  background-image: url(./imgs/list.doodtal/RB.png);
+}
+.nba {
+  background-image: url(./imgs/list.doodtal/nba.jpg);
+}
+.fitnes {
+  background-image: url(./imgs/list.doodtal/fitness.jpg);
+}
+.song {
+  background-image: url(./imgs/list.doodtal/songcover.jpg);
+}
+
+/* utas */
+@media screen and (max-width: 734px) {
+  .tvch {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .tvdo {
+    padding: 44px;
+    align-items: center;
+  }
+  .tvtxt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* ipad */
+@media screen and (min-width: 735px) {
+  .utas {
+    display: block;
+  }
+  .ip16pro {
+    background-image: url(./imgs/Pad/1ph16pro.jpg);
+  }
+  .ip16 {
+    background-image: url(./imgs/Pad/iph16.jpg);
+  }
+  .ipads {
+    background-image: url(./imgs/Pad/iphpad.jpg);
+  }
+  .airpods {
+    margin-top: 0;
+  }
+  .sizes {
+    height: 650px;
+    width: 100%;
+  }
+  .boxdod {
+    justify-content: flex-start;
+    padding-top: 58px;
+  }
+  .contents {
+    grid-template-areas:
+      "airpods iwatch"
+      "macbook smallb"
+      "carrier trade";
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .sized {
+    height: 490px;
+  }
+  .fontbs p {
+    font-size: 22px;
+  }
+  .fontws h1 {
+    font-size: 42px;
+  }
+  .fontws p {
+    font-size: 22px;
+  }
+  .towchu {
+    gap: 16px;
+  }
+  .towchbu {
+    width: 123px;
+    height: 44px;
+    font-size: 16px;
+  }
+  .towchbhu {
+    width: 68px;
+    height: 44px;
+    font-size: 16px;
+  }
+  .towchwu {
+    width: 123px;
+    height: 44px;
+    font-size: 16px;
+  }
+  .towchwhu {
+    width: 68px;
+    height: 44px;
+    font-size: 16px;
+  }
+  .tedd {
+    background-image: url(./imgs/lists.pad/tedlasso.pad.jpg);
+  }
+  .blitz {
+    background-image: url(./imgs/lists.pad/blitz.pad.jpg);
+  }
+  .silo {
+    background-image: url(./imgs/lists.pad/silo.pad.jpg);
+  }
+  .bads {
+    background-image: url(./imgs/lists.pad/badsista.pad.jpg);
+  }
+  .shrek {
+    background-image: url(./imgs/lists.pad/shrink.pad.jpg);
+  }
+  .season {
+    background-image: url(./imgs/lists.pad/season.pad.jpg);
+  }
+  .charlie {
+    background-image: url(./imgs/lists.pad/charlie.pad.jpg);
+  }
+  .disclaim {
+    background-image: url(./imgs/lists.pad/disclaim.pad.jpg);
+  }
+  .flyme {
+    display: flex;
+  }
+  .slow {
+    display: flex;
+  }
+  .frame {
+    width: 3000px;
+  }
+  .imgsze {
+    height: 368px;
+    min-width: 689px;
+  }
+  .imgsze1 {
+    height: 368px;
+    min-width: 339px;
+  }
+  .ehniih {
+    background-image: url(./ehniih.png);
+  }
+  .suuliih {
+    background-image: url(./suuliih.png);
+  }
+}
+
+@media screen and (min-width: 874px) {
+  .gutal {
+    display: flex;
+  }
+  .htop {
+    height: 44px;
+  }
+  .logo {
+    width: 42px;
+    height: 42px;
+  }
+  .logo-s {
+    padding-left: 24px;
+  }
+  .applez {
+    font-size: 15px;
+    padding: 15px;
+  }
+  .menur {
+    display: none;
+  }
+  .pc {
+    width: 879px;
+  }
+}
+
+/* pc */
+@media screen and (min-width: 1069px) {
+  .tom {
+    font-size: 33px;
+    padding: 0%;
+    color: #000000cc;
+  }
+  .ip16pro {
+    background-image: url(./imgs/Pc/ip.16pro.jpg);
+  }
+  .ip16 {
+    background-image: url(./imgs/Pc/ip.16.jpg);
+  }
+  .ipads {
+    display: none;
+  }
+  .smallb {
+    display: none;
+  }
+  .carrier {
+    display: none;
+  }
+  .sized {
+    height: 580px;
+  }
+  .sizes {
+    height: 692px;
+  }
+  .gift {
+    display: flex;
+    background-image: url(./imgs/Pc/apple.jpg);
+  }
+  .airpods2 {
+    display: flex;
+  }
+  .airpods {
+    display: none;
+  }
+  .card {
+    display: flex;
+  }
+  .ipad {
+    background-image: url(./imgs/Pc/i.pad.jpg);
+    display: flex;
+  }
+  .iwatch {
+    background-image: url(./imgs/Pc/i.watch.jpg);
+  }
+  .macbook {
+    background-image: url(./imgs/Pc/mac.book.jpg);
+  }
+  .trade {
+    background-image: url(./imgs/Pc/trade.in.jpg);
+  }
+  .contents {
+    grid-template-areas:
+      "ipad airpods2"
+      "iwatch macbook"
+      "trade card";
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .fontbs h1 {
+    font-size: 52px;
+  }
+  .fontbs p {
+    font-size: 24px;
+  }
+  .fontws h1 {
+    font-size: 52px;
+  }
+  .fontws p {
+    font-size: 24px;
+  }
+  .fontb h1 {
+    font-size: 36px;
+  }
+  .fontb p {
+    font-size: 18px;
+  }
+  .fontw h1 {
+    font-size: 36px;
+  }
+  .fontw p {
+    font-size: 18px;
+  }
+  /* dood */
+  .imgsze {
+    height: 668px;
+    min-width: 1250px;
+  }
+  .footer {
+    height: 250px;
+  }
+  .sizies {
+    width: 417px;
+    height: 236px;
+  }
+  .imgsze1 {
+    height: 668px;
+    min-width: 600px;
+  }
+}

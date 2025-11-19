@@ -1,0 +1,26 @@
+.box {
+  margin-top: 50px;
+  margin-left: 700px;
+  color: white;
+  border-radius: 10px;
+  padding: 40px;
+  text-align: center;
+  width: 400px;
+}
+
+.boxlg {
+  padding: 60px;
+  margin-left: 680px;
+}
+
+.box1 {
+  background-color: rgb(242, 49, 49);
+}
+
+.box2 {
+  background-color: rgb(70, 70, 255);
+}
+
+.box3 {
+  background-image: url(https://thumbs.dreamstime.com/b/old-man-take-picture-moutain-old-man-take-pivture-110589350.jpg);
+}
