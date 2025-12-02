@@ -1,203 +1,181 @@
-console.log("Bodlogo.1")
+// // 1.
+// function numberSquare(n) {
+//   return n ** 2;
+// }
+// const n = numberSquare(3);
+// console.log("1.", n);
 
-let x = 5
-let y = 3
-console.log("1.", x+y)
+// // 2.
+// function isEven(h) {
+//   return h % 2;
+// }
+// const h = isEven(3);
+// if (h <= 0) {
+//   console.log("2. true");
+// } else {
+//   console.log("2. false");
+// }
 
-let a = 10
-let b = 4
-console.log("2.", a-b)
+// // 3.
+// function greet(name) {
+//   return name;
+// }
+// const ner = greet("bata");
+// console.log("3. Hello,", ner, "!");
 
-let p = 7
-let q = 6
-console.log("3.", p*q)
+// // 4.
+// function niilberOloh(a, b) {
+//   return a + b;
+// }
+// const result = niilberOloh(1, 3);
+// console.log("4.", result);
 
-let m = 20
-let n = 5
-console.log("4.", m/n)
+// // 5.
+// function maxOfTwo(a, b) {
+//   if (a >= b) {
+//     console.log("5.", a);
+//   } else {
+//     console.log("5.", b);
+//   }
+// }
+// maxOfTwo(7, 6);
 
-let o = 15      
-let u = 4
-console.log("5.", x%y)
+// // 6.
+// function getLength(arr) {
+//   return console.log("6.", arr.length);
+// }
+// getLength("cdffcfgcfcg");
 
-let num = 10
-num = num + 5
-console.log("6.", num)
+// // 7.
+// function toUpper(str) {
+//     return console.log("7.", str.toUpperCase())
+// }
+// toUpper("hello")
 
-let bum = 20
-bum += 10
-console.log("7.", bum)
+// //8.
+// function isPositive(too) {
+//     if (too>0) {
+//         console.log("8. true")
+//     } else {
+//         console.log("8. false")
+//     }
+// }
+// isPositive(-4)
 
-let hum = 50
-hum -=20
-console.log("8.", hum)
+// // 9.
+// function firstItem(arl) {
+//     console.log("9.", arl.slice(0, 1))
+// }
+// firstItem("a")
 
-let dum = 6
-dum *=3
-console.log("9.", dum)
+//
+//
+//
 
-let sum = 16
-sum /= 4
-console.log("10.", sum)
+// 1.
+// function sumArray(arr) {
+//   let sum = 0;
+//   for (let i = 0; i < arr.length; i++) {
+//     sum += arr[i];
+//   }
+//   return sum;
+// }
+// const numbers = [100, 20, 30];
+// const total = sumArray(numbers);
+// console.log(total);
 
-console.log("Bodlogo.2.1")
+//2.
+// function reverseString(str) {
+//   console.log(str.split("").reverse().join(""))
+// }
+// reverseString("bata")
 
-let gurwaljinX = 10
-let gurwaljinY = 12
-let gurwaljinZ = 5
-let gurwaljin = gurwaljinX+gurwaljinZ+gurwaljinY
-console.log("1.Gurwaljin.P",gurwaljin )
+//3.
+// function maxInArray(arra) {
+//   let max = 0;
+//   for (let i = 0; i < arra.length; i++) {
+//     const number = arra[i];
+//     if (number > max) {
+//       max = number;
+//     }
+//   }
+//   return max;
+// }
+// const nums = [2, 3];
+// const result = maxInArray(nums);
+// console.log(result);
 
-let neg = 1
-let guraw = 3
-let taw = 5
-let dolo = 7
-let naim = 8.7
-let niilber = neg+guraw+taw+dolo+~~naim
-console.log("2.Niilber", niilber)
+//4.
+// function capitalize(ug) {
+//   let word = "";
+//   for (let i = 0; i < ug.length; i++) {
+//     let char = ug[i];
+//     if (i === 0) {
+//       const firstLetter = char.toUpperCase();
+//       word += firstLetter;
+//     } else {
+//       word += char;
+//     }
+//   }
+//   return word;
+// }
+// const words = "hello";
+// const result = capitalize(words);
+// console.log(result);
 
-let urt = 10
-let bogino = 5
-let talbai = urt*bogino
-let premitr = (urt+bogino)*2
-console.log("3.TalbaiBaPremitr", talbai, "m2", premitr)
+//5.
+// function factorial(n) {
+//   let s = 1;
+//   for (let i = n; i > 1; i--) {
+//     s *= i;
+//   }
+//   return s;
+// }
+// const too = factorial(3);
+// console.log(too);
 
-let sek = 98
-let min = 60
-let sekund = sek%min
-let minut = sek/min
-console.log("4.MinutSekunt", ~~minut, "m", sekund, "s")
+//6.
+// function isPalindrome(str) {
+//   let num = str.length - 1;
+//   if (str[0] === str[num]) {
+//     console.log("true");
+//   } else {
+//     console.log("false");
+//   }
+// }
+// const ugudul = "123451";
+// const result = isPalindrome(ugudul);
 
-let sekunt = 1297
-let mins = 60
-let tsag = 3600
-let hour = sekunt/tsag
-let minus = sekunt/mins
-let sek_s = sekunt%mins
-console.log("5.TsagMinutSekunt", ~~hour,"h",~~minus,"m",sek_s,"s")
+//7.
+// function last(arr) {
+//   let lItem = arr.pop()
+//   console.log(lItem)
+// }
+// const numbers = [100, 20, 30];
+// const total = last(numbers);
 
-let mun = 875
-let sec = 88
-let secs = mun*60+sec
-console.log("6.Sec", secs,"s")
+//8.
+// function countOccurrences(arr, item) {
+//   let zero = 0;
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] === item) {
+//       zero++;
+//     }
+//   }
+//   return zero;
+// }
+// const sa = countOccurrences([1,1, 1, 2, 3], 1);
+// console.log(sa);
 
-let cag = 83
-let mon = 84
-let cec = 85
-let sect = cag*3600+mon*60+cec
-console.log("7.Sec", sect, "s")
-
-console.log("Bodlogo.2.2")
-
-let tzag = 38
-let hong = 24
-let honog = tzag/hong
-let tzzag = tzag%hong
-console.log("1.HonogTsag", ~~honog,"d", tzzag, "h")
-
-let day = 4
-let zag = 40
-let dayz = day*24+zag
-console.log("2.Tsag", dayz, "h")
-
-let sar = 106
-let jil = 12
-let jils = sar/jil
-let sars = sar%jil
-console.log("3.JilSar", ~~jils,"year", sars,"month")
-
-let year = 90
-let month = 98
-let months = 12
-let sarss = year*months+month
-console.log("4.Sar", sarss,"month")
-
-let toonuud = Math.min(9, 3, 2, 8);
-console.log("5.Baga too", toonuud)
-
-let toos = [2, 9, 4, 3];
-let tawaasbaga = toos
-.filter(t => t < 5)
-.reduce((product, t) => product * t);
-console.log("6.5sBaga", tawaasbaga) 
-
-let tuu = [11, 9, 4, 3];
-let tawaasikh = tuu
-.filter(t => t > 5)
-.reduce((product, t) => product * t);
-console.log("7.5sIkh", tawaasikh)
-
-console.log("HomeWork")
-
-let e = 5
-let ep = e*4
-console.log("1.", ep)
-
-let w = 8
-let wk = w*w
-console.log("2.", wk)
-
-let r = 4
-let f = 6
-let rfp = (r+f)*2
-console.log("3.", rfp)
-
-let rf = r*f
-console.log("4.", rf)
-
-console.log("5.", rf, rfp)
-
-let t = 3
-let tr = t*~~Math.PI
-console.log("6.", tr)
-
-let trk = t*tr
-console.log("7.", trk)
-
-let t1 = 5
-let tr1 = t1*~~Math.PI
-let trk1 = t1*tr1
-console.log("8.", tr1, trk1)
-
-let r2 = 7
-let tr2 = r2*~~Math.PI
-console.log("9.", tr,tr2)
-
-let r3 = 10
-let d3 = r3*2
-console.log("10.", d3)
-
-let t2 = 25
-
-let x1 = 8.7 
-let y1 = 7
-let xy1 = x1%y1
-console.log("13.", ~~xy1 )
-
-let x2 = 15
-let y2 = 4
-let xy2 = x2%y2
-console.log("14.",xy2 )
-
-let x3 = 123
-console.log("15.", x3%10)
-
-let x4 = 10
-let y4 = 20
-let xy = x4 + y4 * 2
-console.log("18.", xy)
-
-let x5 = 5
-let y5 = 10
-let xy3 = (x5 + y5) * 2
-console.log("19.", xy3)
-
-let x6 = 8
-let x6a = x6%2
-let sondTegsh
-if (x6a === 1) {
-    sondTegsh = "Sondgoi"
-} else if (x6a === 0) {
-    sondTegsh = "Tegsh"
+//9.
+function shortestWord(str) {
+  let uguulber = str.split(" ");
+  let gg = uguulber.sort((a, b) => a.length - b.length);
+  let gg1 = gg[0];
+  return gg1;
 }
-console.log("20.", sondTegsh )
+const Uguulber = "Bataa neg udur untjee"; 
+const result = shortestWord(Uguulber);
+console.log(result);
+
+//10.
